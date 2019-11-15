@@ -1,0 +1,180 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel walkin export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"hidden":"{$item_hide_export_field}","text":{$accountID_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field1}","text":{$first_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field2}","text":{$last_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field3}","text":{$middle_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field4}","text":{$contact_no_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field5}","text":{$address_line_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field6}","text":{$barangay_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field7}","text":{$city_province_region_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field8}","text":{$email_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field9}","text":{$prefered_mode_of_payment_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field10}","text":{$date_modified_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field11}","text":{$date_created_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field12}","text":{$last_modified_by_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field13}","text":{$id_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field14}","text":{$title_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field15}","text":{$start_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field16}","text":{$end_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field21}","text":{$status_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field22}","text":{$doctor_id_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field24}","text":{$serviceID_pdfvalue}},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+					]
+}
+  

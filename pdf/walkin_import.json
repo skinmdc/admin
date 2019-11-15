@@ -1,0 +1,171 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel walkin import}","hidden":"{$item_hide_import_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"hidden":"{$item_hide_import_field}","text":{$accountID_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field1}","text":{$first_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field2}","text":{$last_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field3}","text":{$middle_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field4}","text":{$contact_no_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field5}","text":{$address_line_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field6}","text":{$barangay_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field7}","text":{$city_province_region_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field8}","text":{$email_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field9}","text":{$prefered_mode_of_payment_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field10}","text":{$id_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field11}","text":{$title_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field12}","text":{$start_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field13}","text":{$end_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field18}","text":{$status_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field19}","text":{$doctor_id_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field21}","text":{$serviceID_pdfvalue}},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+					]
+}
+  

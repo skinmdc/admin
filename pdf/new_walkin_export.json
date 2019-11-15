@@ -1,0 +1,195 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel new_walkin export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"hidden":"{$item_hide_export_field1}","text":{$title_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field2}","text":{$start_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field3}","text":{$end_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field5}","text":{$date_created_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field6}","text":{$date_modified_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field7}","text":{$last_modified_by_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field8}","text":{$status_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field9}","text":{$doctor_id_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field10}","text":{$email_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field11}","text":{$serviceID_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field}","text":{$id_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field12}","text":{$accountID1_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field13}","text":{$first_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field14}","text":{$last_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field15}","text":{$middle_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field16}","text":{$contact_no_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field17}","text":{$address_line_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field18}","text":{$barangay_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field19}","text":{$city_province_region_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field20}","text":{$email1_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field21}","text":{$prefered_mode_of_payment_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field22}","text":{$date_modified1_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field23}","text":{$date_created1_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field24}","text":{$last_modified_by1_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_export_field25}","text":{$full_name_pdfvalue}},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+					]
+}
+  

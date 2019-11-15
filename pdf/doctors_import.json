@@ -1,0 +1,153 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel doctors import}","hidden":"{$item_hide_import_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"hidden":"{$item_hide_import_field}","text":{$doctor_id_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field1}","text":{$first_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field2}","text":{$last_name_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field3}","text":{$middle_initial_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field5}","text":{$title_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field6}","text":{$gender_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field7}","text":{$email_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field8}","text":{$specialization_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field9}","text":{$schedule_days_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field10}","text":{$schedule_time_start_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field11}","text":{$schedule_time_end_pdfvalue}},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+					]
+}
+  

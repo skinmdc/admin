@@ -1,0 +1,441 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel Appointments___Reschedule search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr>
+										
+
+{BEGIN cellblock_grid_c1}
+<td
+	{$cell_grid_c1}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c1" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN Scheduled_Appointments_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_id}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_id" 
+	
+	data-signal-error-for="Scheduled_Appointments_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="Scheduled_Appointments_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_id}">
+		{$label Appointments___Reschedule Scheduled_Appointments_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_id}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_id_fieldblock}
+											
+{BEGIN Scheduled_Appointments_title_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_title}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_title" 
+	
+	data-signal-error-for="Scheduled_Appointments_title{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="Scheduled_Appointments_title" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_title}">
+		{$label Appointments___Reschedule Scheduled_Appointments_title }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_title}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_title_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_title_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_title_fieldblock}
+											
+{BEGIN Scheduled_Appointments_start_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_start}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_start" 
+	
+	data-signal-error-for="Scheduled_Appointments_start{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="Scheduled_Appointments_start" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_start}">
+		{$label Appointments___Reschedule Scheduled_Appointments_start }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_start}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_start_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_start_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_start_fieldblock}
+											
+{BEGIN Scheduled_Appointments_end_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_end}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_end" 
+	
+	data-signal-error-for="Scheduled_Appointments_end{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="Scheduled_Appointments_end" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_end}">
+		{$label Appointments___Reschedule Scheduled_Appointments_end }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_end}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_end_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_end_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_end_fieldblock}
+											
+{BEGIN Scheduled_Appointments_accountID_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_accountID}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_accountID" 
+	
+	data-signal-error-for="Scheduled_Appointments_accountID{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="Scheduled_Appointments_accountID" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_accountID}">
+		{$label Appointments___Reschedule Scheduled_Appointments_accountID }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_accountID}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_accountID_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_accountID_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_accountID_fieldblock}
+											
+{BEGIN Scheduled_Appointments_date_created_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_date_created}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_date_created" 
+	
+	data-signal-error-for="Scheduled_Appointments_date_created{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="Scheduled_Appointments_date_created" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_date_created}">
+		{$label Appointments___Reschedule Scheduled_Appointments_date_created }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_date_created}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_date_created_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_date_created_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_date_created_fieldblock}
+											
+{BEGIN Scheduled_Appointments_date_modified_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_date_modified}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_date_modified" 
+	
+	data-signal-error-for="Scheduled_Appointments_date_modified{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="Scheduled_Appointments_date_modified" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_date_modified}">
+		{$label Appointments___Reschedule Scheduled_Appointments_date_modified }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_date_modified}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_date_modified_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_date_modified_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_date_modified_fieldblock}
+											
+{BEGIN Scheduled_Appointments_last_modified_by_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_last_modified_by}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_last_modified_by" 
+	
+	data-signal-error-for="Scheduled_Appointments_last_modified_by{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="Scheduled_Appointments_last_modified_by" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_last_modified_by}">
+		{$label Appointments___Reschedule Scheduled_Appointments_last_modified_by }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_last_modified_by}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_last_modified_by_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_last_modified_by_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_last_modified_by_fieldblock}
+											
+{BEGIN Scheduled_Appointments_status_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_status}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_status" 
+	
+	data-signal-error-for="Scheduled_Appointments_status{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="Scheduled_Appointments_status" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_status}">
+		{$label Appointments___Reschedule Scheduled_Appointments_status }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_status}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_status_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_status_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_status_fieldblock}
+											
+{BEGIN Scheduled_Appointments_doctor_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_doctor_id}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_doctor_id" 
+	
+	data-signal-error-for="Scheduled_Appointments_doctor_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="Scheduled_Appointments_doctor_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_doctor_id}">
+		{$label Appointments___Reschedule Scheduled_Appointments_doctor_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_doctor_id}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_doctor_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_doctor_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_doctor_id_fieldblock}
+											
+{BEGIN Scheduled_Appointments_email_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_email}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_email" 
+	
+	data-signal-error-for="Scheduled_Appointments_email{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="Scheduled_Appointments_email" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_email}">
+		{$label Appointments___Reschedule Scheduled_Appointments_email }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_email}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_email_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_email_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_email_fieldblock}
+											
+{BEGIN Scheduled_Appointments_serviceID_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Scheduled_Appointments_serviceID}  r-horizontal-field form-horizontal" 
+	
+		data-fieldname="Scheduled_Appointments_serviceID" 
+	
+	data-signal-error-for="Scheduled_Appointments_serviceID{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="Scheduled_Appointments_serviceID" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Scheduled_Appointments_serviceID}">
+		{$label Appointments___Reschedule Scheduled_Appointments_serviceID }	</label>
+	<div class="r-search-option">
+		{$searchtype_Scheduled_Appointments_serviceID}
+	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_serviceID_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Scheduled_Appointments_serviceID_editcontrol1}
+	</div>
+	
+</div>
+
+{END Scheduled_Appointments_serviceID_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c1}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} >
+							Search			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reset			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Back to list			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancel			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
